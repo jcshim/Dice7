@@ -10,6 +10,6 @@ int main() {
 		h[n]++;
 	}
 	for (i = 0; i< 6; i++) {
-		printf("%d\n", h[i]);
+		printf("[%d] %d\n",i+1, h[i]);
 	}
 }
